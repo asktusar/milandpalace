@@ -24,8 +24,8 @@ body {
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#69a243;
-    background-attachment:fixed;
+    background:url(../img/bg.jpg) no-repeat fixed;
+	background-size:cover;
     font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
     font-size:12px;
     height:100%;
@@ -48,13 +48,12 @@ body {
                                    /* offset horizontal: half of text area width */
 }
 .app .loader{
-	background:url(../img/712.GIF) no-repeat center center #fff; /* 170px x 200px */
-	background-size:70% 70%;
+	background:url("../img/712.GIF") no-repeat scroll center center / 100% 100% #fff;
 	width:60px;
 	height:60px;
 	margin:0 auto;
-	padding:15px;
-	border-radius:15px;
+	padding:5px;
+	border-radius:5px;
 }
 
 /* Landscape layout (with min-width) */
